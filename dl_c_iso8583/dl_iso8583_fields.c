@@ -642,9 +642,9 @@ static DL_ERR VarLen_Get ( const DL_UINT8 **ioPtr,
 
 		while ( iVarLenDigits > 0 )
 		{
-			*oLen += (*oLen * 100) +
-					 ((((int)(*tmpPtr) >> 4) & 0xf) * 10) +
-					 ((int)(*tmpPtr) & 0xf);
+			*oLen = (*oLen * 100) +
+					((((int)(*tmpPtr) >> 4) & 0xf) * 10) +
+					((int)(*tmpPtr) & 0xf);
 			iVarLenDigits -= 2;
 			tmpPtr++;
 		} /* end-while */
