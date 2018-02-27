@@ -123,6 +123,7 @@ typedef DL_UINT32 DL_UCHAR; // unicode character
 
 #define kDL_ASCII_QUOTE			0x22
 #define kDL_ASCII_APOSTROPHE	0x27
+#define kDL_ASCII_FORWARDSLASH	0x2F
 #define kDL_ASCII_BACKSLASH		0x5C
 
 /******************************************************************************/
