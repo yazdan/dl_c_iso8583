@@ -66,16 +66,6 @@ DL_ERR _unpack_iso_BINARY ( DL_UINT16                    iField,
 						    const DL_ISO8583_FIELD_DEF  *iFieldDefPtr,
 						    DL_UINT8                   **ioPtr );
 
-DL_ERR _pack_iso_XN  ( DL_UINT16                    iField,
-					   const DL_ISO8583_MSG        *iMsg,
-					   const DL_ISO8583_FIELD_DEF  *iFieldDefPtr,
-					   DL_UINT8                   **ioPtr );
-
-DL_ERR _unpack_iso_XN ( DL_UINT16                    iField,
-						DL_ISO8583_MSG              *ioMsg,
-						const DL_ISO8583_FIELD_DEF  *iFieldDefPtr,
-						DL_UINT8                   **ioPtr );
-
 DL_ERR _pack_iso_BITMAP ( DL_UINT16                    iField,
 						  const DL_ISO8583_MSG        *iMsg,
 						  const DL_ISO8583_FIELD_DEF  *iFieldDefPtr,
